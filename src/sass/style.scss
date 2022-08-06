@@ -1,0 +1,28 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container{
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import '../sass/blocs/promo';
+@import '../sass/blocs/header';
+@import '../sass/blocs/button';
+@import '../sass/blocs/x2';
+@import '../sass/blocs/title';
+@import '../sass/blocs/consultation';
+@import '../sass/blocs/forms';
+@import '../sass/blocs/carousel';
+@import '../sass/blocs/catalog';
+@import '../sass/blocs/p0';
+@import '../sass//blocs/footer';
+@import '../sass/blocs/pagep';
+@import '../sass/blocs/model';
+// мобильная верстка 
+@import '../sass/mobile/mobileone';
+@import '../sass/mobile/mobiletu';
+@import '../sass/mobile/fri';
+// анимация 
+@import '../sass/anomation';
+@import '../sass/gt/animate'

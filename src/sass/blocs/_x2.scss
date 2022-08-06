@@ -1,0 +1,57 @@
+.x2{
+min-height: 470px;
+background-color:white;
+padding: 50px 0 50px 0;
+
+&__ggg{
+margin-top: 65px;
+display: flex;
+justify-content: space-between;
+}
+&__A{
+display: flex;
+flex-direction: column;
+max-width: 238px;
+align-items:center;
+
+}
+&__B{
+display: flex;
+flex-direction: column;
+padding-top: 30px;
+text-align: center;
+color: black;
+font-size: 18px;
+font-weight: 700;
+}
+&__C{
+padding-top: 20px;
+color:black;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.2;
+text-align: center
+}
+&__x026{
+text-decoration: underline;
+color: #ff0000;
+}
+&__icon{
+    &_anomation{
+        animation: heardbeat 1.5s linear infinite;
+        
+        // animation-name: heardbeat;
+        // animation-duration: 1.5s;
+
+        // animation-timing-function: linear;
+        // animation-iteration-count: infinite;
+        &:hover{
+            animation-play-state:paused;
+        }
+    }
+
+}
+
+
+
+}

@@ -1,0 +1,25 @@
+.consultation{
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(none);
+    background: url(../img/363.png) center (center/cover)no-repeat;
+    &__descr{
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .error{
+        border: 1px solid red;
+      
+    }
+    label.error{
+        border: none;
+        margin-bottom: 15px;
+        text-align: center;
+        color: white;
+        &:hover{
+            color:green;
+        }
+    }
+}
